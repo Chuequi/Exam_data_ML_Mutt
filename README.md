@@ -66,11 +66,9 @@ Add the following lines to schedule the script for bitcoin, ethereum, and cardan
 Replace /usr/bin/python3 with the actual path to your Python 3 interpreter and /path/to/coin_history_app.py with the actual path to your script on your system.
 ## Disclaimer
 
-This script is provided as a sample for educational purposes. It may require further customization and error handling for production use.
+This script may require further customization and error handling for production use.
 
 Feel free to customize and extend the script to suit your specific needs.
 
 Replace placeholders like `your-username`, `/path/to/python3`, and `/path/to/coin_history_app.py` with the actual paths on your system.
-
-This markdown version should be ready for use in your repository's `README.md` file.
 
