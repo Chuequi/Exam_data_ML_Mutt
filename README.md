@@ -16,10 +16,9 @@ This Python script allows you to download coin history data from the Coingecko A
    cd coin-history-app
 
 
+
 Install the required libraries using:
-
-bash
-
+   ```bash
     pip install -r requirements.txt
 
 Usage
@@ -27,7 +26,8 @@ Fetch and Store Data
 
 To fetch and store data for a specific date and coin, run the script as follows:
 
-bash
+   ```bash
+
 
 python coin_history_app.py
 
@@ -36,7 +36,8 @@ Bulk Reprocess Data
 
 To bulk-reprocess data for a specified date range, use the --bulk-reprocess option along with --start-date and --end-date:
 
-bash
+   ```bash
+
 
 python coin_history_app.py --bulk-reprocess --start-date YYYY-MM-DD --end-date YYYY-MM-DD
 
@@ -48,7 +49,8 @@ CRON Job Setup
 
 To automate the script's execution, you can set up a CRON job to run the script daily at 3am. Open your terminal and enter the following command to edit the CRON table:
 
-bash
+   ```bash
+
 
 crontab -e
 
